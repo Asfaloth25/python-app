@@ -24,8 +24,8 @@
 
 <body class="d-flex justify-content-center align-items-center vh-100">
 
-    <div class="card shadow-lg p-4 converter-card" style="width: 400px;">
-        <h2 class="text-center mb-4">💱 Conversor de Divisas</h2>
+    <div class="card shadow-lg p-4 converter-card" style="width: 600px;">
+        <h2 class="text-center mb-4">💱 Conversor de Divisas 💸</h2>
 
         <form method="post">
             <div class="mb-3">
@@ -35,12 +35,16 @@
                        placeholder="Introduce cantidad" required>
             </div>
 
+            <div>
+                <p>Esto es un cambio de la barra de navegación 😏</p>
+            </div>
+
             <div class="row mb-3">
                 <div class="col">
                     <select name="from_currency" class="form-select">
                         <option value="EUR">EUR €</option>
-                        <option value="USD">USD $</option>
                         <option value="GBP">GBP £</option>
+                        <option value="USD">USD $</option>
                     </select>
                 </div>
                 <div class="col text-center align-self-center">
@@ -48,16 +52,16 @@
                 </div>
                 <div class="col">
                     <select name="to_currency" class="form-select">
-                        <option value="USD">USD $</option>
-                        <option value="EUR">EUR €</option>
                         <option value="GBP">GBP £</option>
+                        <option value="EUR">EUR €</option>
+                        <option value="USD">USD $</option>
                     </select>
                 </div>
             </div>
 
             <div class="d-grid">
                 <button type="submit" class="btn btn-primary btn-lg">
-                    Convertir
+                    Convertir 🪙
                 </button>
             </div>
         </form>
